@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 
-const url = `mongodb+srv://ba7254491:bilalahmad@cluster0.pixk3mk.mongodb.net/GoFoodMERN?retryWrites=true&w=majority`;
-
+// const url = `mongodb+srv://ba7254491:bilalahmad@cluster0.pixk3mk.mongodb.net/GoFoodMERN?retryWrites=true&w=majority`;
+const url =`mongodb://ba7254491:bilalahmad@ac-8kxdnd0-shard-00-00.pixk3mk.mongodb.net:27017,ac-8kxdnd0-shard-00-01.pixk3mk.mongodb.net:27017,ac-8kxdnd0-shard-00-02.pixk3mk.mongodb.net:27017/GoFoodMERN?ssl=true&replicaSet=atlas-xnphvb-shard-0&authSource=admin&retryWrites=true&w=majority`
 
 const mongoDB = async () => {
 
