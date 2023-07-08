@@ -10,7 +10,10 @@
   "license": "ISC",
   "srcipts":{
    "start":"node app.js"
-  },
+  },"engines": {
+    "node": ">=14.20.1"
+  }
+,  
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
